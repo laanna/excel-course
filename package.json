@@ -1,0 +1,37 @@
+{
+  "name": "excel-course",
+  "version": "1.0.0",
+  "description": "Pure JavaScript Excel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laanna/excel-course.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Lahtacheva Anna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laanna/excel-course/issues"
+  },
+  "homepage": "https://github.com/laanna/excel-course#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.0",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
